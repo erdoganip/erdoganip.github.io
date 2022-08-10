@@ -4,8 +4,9 @@
 
 ### Pattern Recognition
 [Expectation Maximization](/expectation_maximization)
-
+In this project, I implemented Expectation Maximization algorithm as a solution to cluster a dataset which is a Gaussian Mixture model, includes 3 different Gaussian distribution.
 <img src="images/pr_hw2_final.png" width="50%" height="50%"/>
+
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
