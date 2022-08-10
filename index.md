@@ -5,7 +5,7 @@
 ### Pattern Recognition
 
 [Expectation Maximization](/expectation_maximization)
-<img src="images/pr_hw2_final.png?raw=true"/>
+<img src="images/pr_hw2_final.png?raw=true" width="50%" height="50%"/>
 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
