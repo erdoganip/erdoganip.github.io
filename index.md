@@ -3,10 +3,9 @@
 ---
 
 ### Pattern Recognition
-
 [Expectation Maximization](/expectation_maximization)
-<img src="images/pr_hw2_final.png" width="50%" height="50%"/>
 
+<img src="images/pr_hw2_final.png" width="50%" height="50%"/>
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
