@@ -8,7 +8,7 @@
 <img src="images/pr_hw2_final.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Logistic Regression and Gradient Descent from Scratch](/log_res)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
