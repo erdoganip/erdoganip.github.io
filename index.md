@@ -21,9 +21,12 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 
 ---
 
-### Category Name 2
+### Deep Learning
 
-- [Project 1 Title](http://example.com/)
+- [MLP as a Neural Language Model](/mlp_language)
+<br/>
+In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
+<br/>
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
