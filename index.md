@@ -11,7 +11,9 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<br/>
+<img src="images/pr_hw3_accuracies.jpg" width="50%" height="50%"/>
+<br/>
 
 ---
 [Project 3 Title](http://example.com/)
