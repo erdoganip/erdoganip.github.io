@@ -12,7 +12,7 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
 <br/>
-<img src="images/pr_hw3_accuracies.jpg" width="50%" height="50%"/>
+<img src="images/pr3_hw_accuracies.jpg" width="50%" height="50%"/>
 <br/>
 
 ---
