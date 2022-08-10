@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TLK47QPQQP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TLK47QPQQP');
+</script>
+
 ## Portfolio
 
 ---
@@ -23,7 +33,7 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 
 ### Deep Learning
 
-- [MLP as a Neural Language Model](/mlp_language)
+[MLP as a Neural Language Model](/mlp_language)
 <br/>
 In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
 <br/>
