@@ -2,10 +2,10 @@
 
 ---
 
-### Category Name 1 
+### Pattern Recognition
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Expectation Maximization](/expectation_maximization)
+<img src="images/pr_hw2_final.png?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
