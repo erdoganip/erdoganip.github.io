@@ -18,12 +18,14 @@
 In this project, I implemented Expectation Maximization algorithm as a solution to cluster a dataset which is a Gaussian Mixture model, includes three different Gaussian distribution.
 <br/>
 <img src="images/pr_hw2_final.png" width="50%" height="50%"/>
+
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
 <br/>
 This project is about implementing a logistic regression model by scratch and updating its gradients using stochastic gradient descent method.
 <br/>
 <img src="images/pr3_hw_accuracies.jpg" width="50%" height="50%"/>
+
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
