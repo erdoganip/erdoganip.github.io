@@ -38,7 +38,7 @@ This project is about implementing a logistic regression model by scratch and up
 <br/>
 In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
 <br/>
-<img src="images/tsne_plot.png" width="50%" height="50%"/>
+<img src="images/mlp.png" width="50%" height="50%"/>
 
 - [Project 2 Title](http://example.com/)
 - [Project 3 Title](http://example.com/)
