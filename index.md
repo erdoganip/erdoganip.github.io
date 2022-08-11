@@ -46,7 +46,6 @@ I implemented a convolutional neural network (CNN) architecture from scratch, us
 <br/>
 <img src="images/model9.png" width="25%" height="25%"/>
 <img src="images/cifar10.png" width="60%" height="60%"/>
-<br/>
 <p style="font-size:8px;">Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html</p>
 [Implementing a Variational Auto Encoder(VAE)](/vae)
 <br/>
