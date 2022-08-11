@@ -15,6 +15,7 @@
 ### Pattern Recognition
 [Expectation Maximization](/expectation_maximization)
 <br/>
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1yFvVDUvC9DnX8tVPWCbFdOVhbv_p6XYo?usp=sharing)
 In this project, I implemented Expectation Maximization algorithm as a solution to cluster a dataset which is a Gaussian Mixture model, includes three different Gaussian distribution.
 <br/>
 <img src="images/pr_hw2_final.png" width="50%" height="50%"/>
