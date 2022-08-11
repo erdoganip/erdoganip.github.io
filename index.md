@@ -40,7 +40,12 @@ In this project, I implemented a neural language model using a multi-layer perce
 <br/>
 <img src="images/mlp.png" width="50%" height="50%"/>
 
-- [Project 2 Title](http://example.com/)
+[CNN from Scratch](/cnn_from_scratch)
+<br/>
+I implemented a convolutional neural network (CNN) architecture from scratch, using a deep learning library. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10.
+<br/>
+<img src="images/model9.png" width="50%" height="50%"/>
+
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
 - [Project 5 Title](http://example.com/)
