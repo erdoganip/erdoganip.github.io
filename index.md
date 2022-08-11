@@ -34,6 +34,8 @@ This project is about implementing a logistic regression model by scratch and up
 
 [MLP as a Neural Language Model](/mlp_language)
 <br/>
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1cGu0hQV7VCacA_hB8RMrfe5i83WBRHys?usp=sharing)
+<br/>
 In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
 <br/>
 <img src="images/mlp.png" width="50%" height="50%"/>
