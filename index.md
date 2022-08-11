@@ -44,7 +44,7 @@ In this project, I implemented a neural language model using a multi-layer perce
 <br/>
 I implemented a convolutional neural network (CNN) architecture from scratch, using a deep learning library. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10.
 <br/>
-<img src="images/model9.png" width="50%" height="50%"/>
+<img src="images/model9.png" width="25%" height="25%"/>
 
 - [Project 3 Title](http://example.com/)
 - [Project 4 Title](http://example.com/)
