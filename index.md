@@ -45,7 +45,7 @@ In this project, I implemented a neural language model using a multi-layer perce
 I implemented a convolutional neural network (CNN) architecture from scratch, using Pytorch. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10 dataset.
 <br/>
 <img src="images/model9.png" width="25%" height="25%"/>
-<img src="images/cifar10.png"/>
+<img src="images/cifar10.png" width="50%" height="50%"/>
 <br/>
 Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html
 
