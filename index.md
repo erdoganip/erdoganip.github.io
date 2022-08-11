@@ -24,15 +24,11 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
 <br/>
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1tppXFSwrH6FGpr4SyDZq87c1143Hchi5?usp=sharing)
+<br/>
 This project is about implementing a logistic regression model by scratch and updating its gradients using stochastic gradient descent method.
 <br/>
 <img src="images/pr3_hw_accuracies.jpg" width="50%" height="50%"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ### Deep Learning
 
