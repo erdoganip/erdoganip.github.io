@@ -40,20 +40,18 @@ In this project, I implemented a neural language model using a multi-layer perce
 <br/>
 <img src="images/mlp.png" width="50%" height="50%"/>
 
-[CNN from Scratch](/cnn_from_scratch)
+[Convolutional Neural Network(CNN) from Scratch](/cnn_from_scratch)
 <br/>
 I implemented a convolutional neural network (CNN) architecture from scratch, using Pytorch. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10 dataset.
 <br/>
 <img src="images/model9.png" width="25%" height="25%"/>
 <img src="images/cifar10.png" width="60%" height="60%"/>
 <br/>
-Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html
-<p style="color:blue;font-size:8px;">Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html</p>
-[Implementing a VAE](/vae)
+<p style="font-size:8px;">Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html</p>
+[Implementing a Variational Auto Encoder(VAE)](/vae)
 <br/>
-I implemented a convolutional neural network (CNN) architecture from scratch, using Pytorch. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10 dataset.
+The aim of this project is to implement a VAE, where the encoder is an LSTM network and the decoder is a convolutional network. Training and testing was made on MNIST dataset.
 <br/>
-<img src="images/model9.png" width="25%" height="25%"/>
 <br/>
 
 - [Project 3 Title](http://example.com/)
