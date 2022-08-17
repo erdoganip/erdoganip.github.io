@@ -12,6 +12,7 @@
 Expectation-Maximization [1] is a clustering algorithm which has an iterative approach. It basically computes maximum likelihood estimates iteratively and updates the distribution parameters (π, Σ, μ) according to this likelihood information. This update can be implemented according to the log-likelihood and log-posterior [2].
 
 In this project, I implemented this solution to cluster a dataset which is a Gaussian Mixture model, includes 3 different Gaussian distribution.
+
 For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1yFvVDUvC9DnX8tVPWCbFdOVhbv_p6XYo?usp=sharing)
 ### 1. Finding the best parameters
 We are trying to find best parameters theta (π, Σ, μ) to maximize the log-likelihood of each data to appropriate distribution (here we can think distribution as clusters) [3]. There is a paradox here. Since we don’t know the distributions from the beginning, we can not calculate the likelihood. Since we can not calculate the likelihood, we can not maximize it and find the appropriate Gaussian distributions of dataset.
@@ -69,11 +70,11 @@ def e_step(x, params):
 ### 3. Maximization
 By using the probabilities come from the expectation step, we update the π, μ and Σ parameters in maximization step, to increase the each point’s likelihood to appropriate Gaussian distribution. Which also means to devide data points into clusters in most correct way. To update the πk values, we sum the probabilities which came for the kth distribution, and divide it by the total data point count.
 <div style="text-align: center;">
-<img src="images/max1.jpg" width="20%" height="20%"/>
+<img src="images/max1.jpg" width="25%" height="25%"/>
 </div>
 To update the μk values, we multiply the datapoints with their probabilities and sum. Then, we divide this sum to the sum of the probabilities.
 <div style="text-align: center;">
-<img src="images/max2.jpg" width="50%" height="50%"/>
+<img src="images/max2.jpg" width="45%" height="45%"/>
 </div>
 To update the Σ values, we first calculate the differences between the data points and the mean, and then multiply this difference, the transpose of this difference and the probabilities of these data points. And we divide this value to the sum of the probabilities.
 <div style="text-align: center;">
@@ -120,8 +121,9 @@ def m_step(x, params):
      −0.64166751 0.82171149]<br>
 
 ### 5. References
-<br>In the script, I inspired by the blog here: https://towardsdatascience.com/implement-expectation-maximization-em-algorithm-in-python-from-scratch-f1278d1b9137
+In the script, I inspired by the blog here: https://towardsdatascience.com/implement-expectation-maximization-em-algorithm-in-python-from-scratch-f1278d1b9137
 <br>For the plotting part, I followed the same approach with this blog: https://medium.com/@prateek.shubham.94/expectation-maximization-algorithm-7a4d1b65ca55
+
 <br>[1] Dempster, A. P., N. M. Laird and D. B. Rubin, “Maximum Likelihood from Incomplete Data Via the EM Algorithm”, Journal of the Royal Statistical Society: Series B (Methodological), Vol. 39, No. 1, pp. 1–22, 1977, https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1977.tb01600.x.
 <br>[2] Dellaert, F., “The Expectation Maximization Algorithm”, , 07 2003.
 <br>[3] Moon, T. K., “The expectation-maximization algorithm”, IEEE Signal Processing Magazine, Vol. 13, No. 6, pp. 47–60, Nov 1996.
