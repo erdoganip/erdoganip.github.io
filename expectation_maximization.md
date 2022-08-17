@@ -68,17 +68,17 @@ def e_step(x, params):
 ```
 ### 3. Maximization
 By using the probabilities come from the expectation step, we update the π, μ and Σ parameters in maximization step, to increase the each point’s likelihood to appropriate Gaussian distribution. Which also means to devide data points into clusters in most correct way. To update the πk values, we sum the probabilities which came for the kth distribution, and divide it by the total data point count.
-
+<div style="text-align: center;">
 <img src="images/max1.jpg" width="40%" height="40%"/>
-
+</div>
 To update the μk values, we multiply the datapoints with their probabilities and sum. Then, we divide this sum to the sum of the probabilities.
-
+<div style="text-align: center;">
 <img src="images/max2.jpg" width="50%" height="50%"/>
-
+</div>
 To update the Σ values, we first calculate the differences between the data points and the mean, and then multiply this difference, the transpose of this difference and the probabilities of these data points. And we divide this value to the sum of the probabilities.
-
+<div style="text-align: center;">
 <img src="images/max3.jpg" width="60%" height="60%"/>
-
+</div>
 We save the average likelihood of all points for all the distributions. As a convergence condition, we check the difference between this step’s value and previous step’s value. If the difference is smaller than ”0.0000001”, it means algorithm converged and code stops.
 
 ```javascript
