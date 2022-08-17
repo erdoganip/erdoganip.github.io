@@ -9,8 +9,6 @@
 </script>
 ## Expectation-Maximization
 
-**Project description:**
-
 Expectation-Maximization [1] is a clustering algorithm which has an iterative approach. It basically computes maximum likelihood estimates iteratively and updates the distribution parameters (π, Σ, μ) according to this likelihood information. This update can be implemented according to the log-likelihood and log-posterior [2].
 
 In this project, I implemented this solution to cluster a dataset which is a Gaussian Mixture model, includes 3 different Gaussian distribution.
@@ -44,7 +42,7 @@ def initialize_random_params():
 
 ### 2. Expectation
 In this part, by using the parameters, I calculated the likelihoods of all the data points according to the different distributions. Than by using the formula down below, I calculated a posterior probability (sometimes people refer this responsibility) [4] for each of the data points and for each of the distributions. We will use this probabilities to update the parameters in maximization step.
-<img src="images/exp.jpg"/>
+<img src="images/exp.jpg" width="50%" height="50%"/>
 
 ```javascript
 def e_step(x, params):
@@ -68,6 +66,19 @@ def e_step(x, params):
 ```
 ### 3. Maximization
 By using the probabilities come from the expectation step, we update the π, μ and Σ parameters in maximization step, to increase the each point’s likelihood to appropriate Gaussian distribution. Which also means to devide data points into clusters in most correct way. To update the πk values, we sum the probabilities which came for the kth distribution, and divide it by the total data point count.
+
+<img src="images/max1.jpg" width="50%" height="50%"/>
+
+To update the μk values, we multiply the datapoints with their probabilities and sum. Then, we divide this sum to the sum of the probabilities.
+
+<img src="images/max2.jpg" width="50%" height="50%"/>
+
+To update the Σ values, we first calculate the differences between the data points and the mean, and then multiply this difference, the transpose of this difference and the probabilities of these data points. And we divide this value to the sum of the probabilities.
+
+<img src="images/max3.jpg" width="50%" height="50%"/>
+
+We save the average likelihood of all points for all the distributions. As a convergence condition, we check the difference between this step’s value and previous step’s value. If the difference is smaller than ”0.0000001”, it means algorithm converged and code stops.
+
 ```javascript
 def m_step(x, params):
     total_count = x.shape[0]
@@ -91,8 +102,8 @@ def m_step(x, params):
     return params
 ```
 ### 4. Results
-<img src="images/pr_hw2_final.png" width="50%" height="50%"/>
-You can see the visualization of my solution in Figure 1. I found this solutions with 47 steps. The parameters I have found was:
+<img src="images/pr_hw2_final.png"/>
+<br>You can see the visualization of my solution in Figure 1. I found this solutions with 47 steps. The parameters I have found was:
 
 π0 = 0.33350133224135536<br>
 μ0 = [4.37904703 4.35183928]<br>
