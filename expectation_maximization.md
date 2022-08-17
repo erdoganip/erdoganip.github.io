@@ -93,7 +93,7 @@ def m_step(x, params):
 You can see the visualization of my solution in Figure 1. I found this solu-
 tions with 47 steps. The parameters I have found was:
 
-π0 = 0.33350133224135536
+π0 = 0.33350133224135536 <br>
 μ0 = [4.37904703 4.35183928]
 Σ0 = [2.74789528 −0.1192322
      −0.1192322 0.61806456]
@@ -102,8 +102,8 @@ tions with 47 steps. The parameters I have found was:
 In the script, I inspired by the blog here: https://towardsdatascience.com/implement-expectation-maximization-em-algorithm-in-python-from-scratch-f1278d1b9137
 For the plotting part, I followed the same approach with this blog: https://medium.com/@prateek.shubham.94/expectation-maximization-algorithm-7a4d1b65ca55
 
-[1] Dempster, A. P., N. M. Laird and D. B. Rubin, “Maximum Likelihood from Incomplete Data Via the EM Algorithm”, Journal of the Royal Statistical Society: Series B (Methodological), Vol. 39, No. 1, pp. 1–22, 1977, https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1977.tb01600.x.
-[2] Dellaert, F., “The Expectation Maximization Algorithm”, , 07 2003.
+<br>[1] Dempster, A. P., N. M. Laird and D. B. Rubin, “Maximum Likelihood from Incomplete Data Via the EM Algorithm”, Journal of the Royal Statistical Society: Series B (Methodological), Vol. 39, No. 1, pp. 1–22, 1977, https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1977.tb01600.x.
+<br>[2] Dellaert, F., “The Expectation Maximization Algorithm”, , 07 2003.
 [3] Moon, T. K., “The expectation-maximization algorithm”, IEEE Signal Processing Magazine, Vol. 13, No. 6, pp. 47–60, Nov 1996.
 [4] Gebru, I. D., X. Alameda-Pineda, F. Forbes and R. Horaud, “EM Algorithms for Weighted-Data Clustering with Application to Audio-Visual Scene Analysis”, IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 38, No. 12, pp. 2402–2415, Dec 2016.
 
