@@ -12,7 +12,7 @@
 Expectation-Maximization [1] is a clustering algorithm which has an iterative approach. It basically computes maximum likelihood estimates iteratively and updates the distribution parameters (π, Σ, μ) according to this likelihood information. This update can be implemented according to the log-likelihood and log-posterior [2].
 
 In this project, I implemented this solution to cluster a dataset which is a Gaussian Mixture model, includes 3 different Gaussian distribution.
-
+For the full pipeline see
 ### 1. Finding the best parameters
 We are trying to find best parameters theta (π, Σ, μ) to maximize the log-likelihood of each data to appropriate distribution (here we can think distribution as clusters) [3]. There is a paradox here. Since we don’t know the distributions from the beginning, we can not calculate the likelihood. Since we can not calculate the likelihood, we can not maximize it and find the appropriate Gaussian distributions of dataset.
 
@@ -106,7 +106,6 @@ def m_step(x, params):
 ### 4. Results
 <img src="images/pr_hw2_final.png"/>
 <br>You can see the visualization of my solution in Figure 1. I found this solutions with 47 steps. The parameters I have found was:
-
 π0 = 0.33350133224135536<br>
 μ0 = [4.37904703 4.35183928]<br>
 Σ0 = [2.74789528 −0.1192322<br>
@@ -123,11 +122,9 @@ def m_step(x, params):
 ### 5. References
 <br>In the script, I inspired by the blog here: https://towardsdatascience.com/implement-expectation-maximization-em-algorithm-in-python-from-scratch-f1278d1b9137
 <br>For the plotting part, I followed the same approach with this blog: https://medium.com/@prateek.shubham.94/expectation-maximization-algorithm-7a4d1b65ca55
-
 <br>[1] Dempster, A. P., N. M. Laird and D. B. Rubin, “Maximum Likelihood from Incomplete Data Via the EM Algorithm”, Journal of the Royal Statistical Society: Series B (Methodological), Vol. 39, No. 1, pp. 1–22, 1977, https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1977.tb01600.x.
 <br>[2] Dellaert, F., “The Expectation Maximization Algorithm”, , 07 2003.
 <br>[3] Moon, T. K., “The expectation-maximization algorithm”, IEEE Signal Processing Magazine, Vol. 13, No. 6, pp. 47–60, Nov 1996.
 <br>[4] Gebru, I. D., X. Alameda-Pineda, F. Forbes and R. Horaud, “EM Algorithms for Weighted-Data Clustering with Application to Audio-Visual Scene Analysis”, IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 38, No. 12, pp. 2402–2415, Dec 2016.
 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For the full pipeline see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
