@@ -44,6 +44,8 @@ def initialize_random_params():
 
 ### 2. Expectation
 In this part, by using the parameters, I calculated the likelihoods of all the data points according to the different distributions. Than by using the formula down below, I calculated a posterior probability (sometimes people refer this responsibility) [4] for each of the data points and for each of the distributions. We will use this probabilities to update the parameters in maximization step.
+<img src="images/exp.jpg"/>
+
 ```javascript
 def e_step(x, params):
     likelihood_0= stats.multivariate_normal(params["mu0"], params["sigma0"]).pdf(x)
@@ -89,9 +91,8 @@ def m_step(x, params):
     return params
 ```
 ### 4. Results
-
-You can see the visualization of my solution in Figure 1. I found this solu-
-tions with 47 steps. The parameters I have found was:
+<img src="images/pr_hw2_final.png" width="50%" height="50%"/>
+You can see the visualization of my solution in Figure 1. I found this solutions with 47 steps. The parameters I have found was:
 
 π0 = 0.33350133224135536<br>
 μ0 = [4.37904703 4.35183928]<br>
