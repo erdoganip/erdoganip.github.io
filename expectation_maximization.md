@@ -128,5 +128,3 @@ In the script, I inspired by the blog here: https://towardsdatascience.com/imple
 <br>[2] Dellaert, F., “The Expectation Maximization Algorithm”, , 07 2003.
 <br>[3] Moon, T. K., “The expectation-maximization algorithm”, IEEE Signal Processing Magazine, Vol. 13, No. 6, pp. 47–60, Nov 1996.
 <br>[4] Gebru, I. D., X. Alameda-Pineda, F. Forbes and R. Horaud, “EM Algorithms for Weighted-Data Clustering with Application to Audio-Visual Scene Analysis”, IEEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 38, No. 12, pp. 2402–2415, Dec 2016.
-
-For the full pipeline see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
