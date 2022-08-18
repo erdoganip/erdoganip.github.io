@@ -51,12 +51,12 @@ At the end of the each iteration, I updated the weights and the bias by the foll
 Here, α is the learning rate. I tried my model with different learning rates. I have observed that, when I select learning rate high, the steps get bigger and more rapid changes can be observed from the accuracy graphs.
 
 ### Results
-You can see the results of my model with epochs = [1000] and α=[0.01,0.001].
+You can see the results of my model with epochs = [1000] and α=[0.01,0.001]
 Overall (average) results of the model are:
---Training Accuracy : 0.769
---Epoch Training Loss: 0.081
---Test Accuracy : 0.95
---Epoch Test Loss: 0.165
+---Training Accuracy : 0.769
+---Epoch Training Loss: 0.081
+---Test Accuracy : 0.95
+---Epoch Test Loss: 0.165
 <br>
 <div style="text-align: center;">
 <img src="images/pr3_hw_accuracies.jpg"/>
