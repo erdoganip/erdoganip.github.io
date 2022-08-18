@@ -14,11 +14,11 @@ For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Cola
 ### Initialization
 
 The dataset has 2 features. When I checked the training labels, I saw labels were either -1 or 1. So, I decided to use tanh as the scaler function, instead of the σ. So, in this problem:
-<img src="images/log1.jpg"/>
-<img src="images/log2.jpg"/>
-<img src="images/log3.jpg"/>
+<img src="images/log1.jpg" width="50%" height="50%"/>
+<img src="images/log2.jpg" width="50%" height="50%"/>
+<img src="images/log3.jpg" width="50%" height="50%"/>
 and my loss function is (since I am using tanh, I choose this loss function. It gaves negative or zero into the logarithm if I use other popular logistic loss function):
-<img src="images/log4.jpg"/>
+<img src="images/log4.jpg" width="80%" height="80%"/>
 
 ```javascript
 if (isAwesome){
