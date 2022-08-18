@@ -1,4 +1,4 @@
-## This can be your internal website page / project page
+## Convolutional Neural Network(CNN) from Scratch
 
 In this project, I implemented a three-layered convolutional neural network (CNN) (that was the constrained) architecture using a deep learning library (PyTorch). For the training and testing phases, I used CIFAR10 dataset.
 
