@@ -1,10 +1,24 @@
-## This can be your internal website page / project page
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TLK47QPQQP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  gtag('config', 'G-TLK47QPQQP');
+</script>
+## Logistic Regression and Gradient Descent from Scratch
+In this project, I implemented a logistic regression model from scratch and update its gradients by following stochastic gradient descent approach.
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1tppXFSwrH6FGpr4SyDZq87c1143Hchi5?usp=sharing)
+### Initialization
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+The dataset has 2 features. When I checked the training labels, I saw labels were either -1 or 1. So, I decided to use tanh as the scaler function, instead of the σ. So, in this problem:
+<img src="images/log1.jpg"/>
+<img src="images/log2.jpg"/>
+<img src="images/log3.jpg"/>
+and my loss function is (since I am using tanh, I choose this loss function. It gaves negative or zero into the logarithm if I use other popular logistic loss function):
+<img src="images/log4.jpg"/>
 
 ```javascript
 if (isAwesome){
@@ -12,7 +26,7 @@ if (isAwesome){
 }
 ```
 
-### 2. Assess assumptions on which statistical inference will be based
+### Training
 
 ```javascript
 if (isAwesome){
