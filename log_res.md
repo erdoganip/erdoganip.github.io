@@ -59,9 +59,5 @@ Overall (average) results of the model are:
 --Epoch Test Loss: 0.165
 <br>
 <div style="text-align: center;">
-<img src="images/log9.jpg" width="45%" height="45%"/>
-</div>
-<br>
-<div style="text-align: center;">
-<img src="images/log9.jpg" width="45%" height="45%"/>
+<img src="images/pr3_hw_accuracies.jpg" width="45%" height="45%"/>
 </div>
