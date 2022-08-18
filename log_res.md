@@ -13,12 +13,12 @@ In this project, I implemented a logistic regression model from scratch and upda
 For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1tppXFSwrH6FGpr4SyDZq87c1143Hchi5?usp=sharing)
 ### Initialization
 
-The dataset has 2 features. When I checked the training labels, I saw labels were either -1 or 1. So, I decided to use tanh as the scaler function, instead of the σ. So, in this problem:
-<img src="images/log1.jpg" width="50%" height="50%"/>
-<img src="images/log2.jpg" width="50%" height="50%"/>
-<img src="images/log3.jpg" width="50%" height="50%"/>
-and my loss function is (since I am using tanh, I choose this loss function. It gaves negative or zero into the logarithm if I use other popular logistic loss function):
-<img src="images/log4.jpg" width="80%" height="80%"/>
+The dataset has 2 features. When I checked the training labels, I saw labels were either -1 or 1. So, I decided to use tanh as the scaler function, instead of the σ. So, in this problem:<br>
+<img src="images/log1.jpg" width="30%" height="30%"/>
+<img src="images/log2.jpg" width="30%" height="30%"/>
+<img src="images/log3.jpg" width="30%" height="30%"/>
+<br>and my loss function is (since I am using tanh, I choose this loss function. It gaves negative or zero into the logarithm if I use other popular logistic loss function):
+<br><img src="images/log4.jpg" width="80%" height="80%"/>
 ### Training
 For the training part, I started with random initialized weights w1, w2, b. For each epoch, i traversed in the shuffled dataset (I shuffled the indices of the dataset actually, not the dataset itself.) and in each iteration in the epoch, for each data point I randomly chose, I updated the weights. To take the partial derivative of the loss function and update the related weights (partial derivative of loss function according to w1 to update w1, etc.), I used chain rule.
 <img src="images/log5.jpg" width="50%" height="50%"/>
