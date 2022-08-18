@@ -18,26 +18,36 @@ The dataset has 2 features. When I checked the training labels, I saw labels wer
 <img src="images/log2.jpg" width="30%" height="30%"/>
 <img src="images/log3.jpg" width="30%" height="30%"/>
 <br>and my loss function is (since I am using tanh, I choose this loss function. It gaves negative or zero into the logarithm if I use other popular logistic loss function):
-<br><img src="images/log4.jpg" width="80%" height="80%"/>
+<br>
+<div style="text-align: center;">
+<img src="images/log4.jpg" width="80%" height="80%"/>
+</div>
 ### Training
 For the training part, I started with random initialized weights w1, w2, b. For each epoch, i traversed in the shuffled dataset (I shuffled the indices of the dataset actually, not the dataset itself.) and in each iteration in the epoch, for each data point I randomly chose, I updated the weights. To take the partial derivative of the loss function and update the related weights (partial derivative of loss function according to w1 to update w1, etc.), I used chain rule.
+<br>
+<div style="text-align: center;">
 <img src="images/log5.jpg" width="50%" height="50%"/>
+</div>
 for w1, the gradient is
+<br>
+<div style="text-align: center;">
 <img src="images/log6.jpg" width="50%" height="50%"/>
+</div>
 for w2, the gradient is
+<br>
+<div style="text-align: center;">
 <img src="images/log7.jpg" width="50%" height="50%"/>
+</div>
 and for b, gradient is
+<br>
+<div style="text-align: center;">
 <img src="images/log8.jpg" width="50%" height="50%"/>
+</div>
 At the end of the each iteration, I updated the weights and the bias by the following formula:
+<br>
+<div style="text-align: center;">
 <img src="images/log9.jpg" width="50%" height="50%"/>
+</div>
 Here, α is the learning rate. I tried my model with different learning rates. I have observed that, when I select learning rate high, the steps get bigger and more rapid changes can be observed from the accuracy graphs.
 
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Results
