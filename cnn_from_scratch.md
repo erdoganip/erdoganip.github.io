@@ -20,9 +20,6 @@ Then I made data augmentation with ”Random Cropping” yet it decreased model�
 ### 2. Trying Different Approaches
 
 Since max-pooling layer undersamples it’s inputs, I decided to remove one of the max-pooling layers (let's call it Model 2). I had a much better result. I also wanted to add ”Random Vertical Flip” which ended up with again, bad results. So I removed it and also I have changed the first convolutional layer’s kernel size. Again, my model’s performance was not good enough. I tried to remove the second max-pooling layer too, and changed the second convolutional layer’s kernel size. Still, results were not better. So I decided to go back to my best models architecture (Model 2) but I also removed the second max-pooling layer and add a second fully connected layer. This brought me to my best model with the best results.
-
-Adding one more fully connected layer probably prevented information loss. The dimension difference were high in between the input and output of the fully connected layers, when I was using 2 FC.
-
 ```javascript
 class Net(nn.Module):
     def __init__(self):
@@ -49,6 +46,38 @@ class Net(nn.Module):
         x = self.fc3(x)
         return x,flattens
 ```
+
+Adding one more fully connected layer probably prevented information loss. The dimension difference were high in between the input and output of the fully connected layers, when I was using 2 FC. I used the module down below for the evaluation part.
+
+```javascript
+def eval(net,testloader):
+    batch_losses = []
+    correct = 0
+    net.eval()
+    criterion = nn.CrossEntropyLoss()
+    total_size=0
+    with torch.no_grad():
+        for i, data in enumerate(testloader, 0):
+            inputs, labels = data
+            total_size += labels.size(0)
+            outputs , flattens = net(inputs)
+            flattens = flattens.detach().numpy()
+            if (i==0):
+                total_flatten = flattens
+                total_labels = labels
+            else:
+                total_flatten = np.concatenate((total_flatten, flattens), axis=0)
+                total_labels = np.concatenate((total_labels, labels), axis=0)
+            loss = criterion(outputs, labels)
+            batch_loss = loss.item()
+            batch_losses.append(batch_loss)
+            l_outputs = np.argmax(outputs.detach().numpy(), axis=1)
+            correct += np.sum(l_outputs == labels.detach().numpy())
+        acc = 100 * correct / total_size
+        total_loss = sum(batch_losses) / len(batch_losses)
+    return total_flatten, total_labels, total_loss,acc
+```
+
 ### 3. Results
 I ran the model during 200 epochs and tried three different optimizers: Adam, RMSprop and SGD. I tried all of them and finally decided to use SGD since it performed the best. You can check the loss and accuracy graphs and the tsne plotting of the embeddings down below. Normally, I would expect tSNE plot to be more sparsed with the accuracy I got. It may be because my latent representation dimension was high (2704) or my tSNE function’s iteration parameter was not high enough.
 <br>Epoch Accuracy:  80.13
@@ -59,8 +88,3 @@ I ran the model during 200 epochs and tried three different optimizers: Adam, RM
 <img src="images/CNN_loss.png"/>
 <img src="images/CNN_acc.png"/>
 <img src="images/tsne_200.png"/>
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
