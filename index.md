@@ -43,6 +43,7 @@ In this project, I implemented a neural language model using a multi-layer perce
 [Convolutional Neural Network(CNN) from Scratch](/cnn_from_scratch)
 <br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1d2LrO9w4i4dv6gweiRoekQ6baSQJwzbl?usp=sharing)
+<br/>
 I implemented a convolutional neural network (CNN) architecture from scratch, using Pytorch. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10 dataset.
 <br/>
 <img src="images/model9.png" width="25%" height="25%"/>
