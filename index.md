@@ -23,25 +23,25 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
-<br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1tppXFSwrH6FGpr4SyDZq87c1143Hchi5?usp=sharing)
 <br/>
 This project is about implementing a logistic regression model by scratch and updating its gradients using stochastic gradient descent method.
 <br/>
 <img src="images/pr3_hw_accuracies.jpg" width="50%" height="50%"/>
 
+---
+
 ### Deep Learning
 
 [MLP as a Neural Language Model](/mlp_language)
-<br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1cGu0hQV7VCacA_hB8RMrfe5i83WBRHys?usp=sharing)
 <br/>
 In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
 <br/>
 <img src="images/mlp.png" width="50%" height="50%"/>
 
+---
 [Convolutional Neural Network(CNN) from Scratch](/cnn_from_scratch)
-<br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1d2LrO9w4i4dv6gweiRoekQ6baSQJwzbl?usp=sharing)
 <br/>
 I implemented a convolutional neural network (CNN) architecture from scratch, using Pytorch. Tried different data augmentation and optimization techniques and to boost the performance on CIFAR10 dataset.
@@ -49,12 +49,14 @@ I implemented a convolutional neural network (CNN) architecture from scratch, us
 <img src="images/model9.png" width="25%" height="25%"/>
 <img src="images/cifar10.png" width="60%" height="60%"/>
 <p style="font-size:8px;">Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html</p>
+
+---
+[Spatio-Temporal Attention for Manipulation Failure Detection (Bachelor's Thesis)](/pdf/poster_corrected.pdf)
+
+---
 [Implementing a Variational Auto Encoder(VAE)]
-<br/>
 The aim of this project is to implement a VAE, where the encoder is an LSTM network and the decoder is a convolutional network. Training and testing was made on MNIST dataset.
 <br/>
-<br/>
-[Spatio-Temporal Attention for Manipulation Failure Detection (Bachelor's Thesis)](/pdf/poster_corrected.pdf)
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
