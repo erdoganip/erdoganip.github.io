@@ -183,6 +183,8 @@ def eval(network,arr,labels,batch_size,filename):
     return loss,acc
 ```
 <br>
+<img src="images/tsne_plot.png"/>
+<br>
 ```javascript
 def tsne_plot(filename,word_dictionary,one_hot_dictionary):
     labels = []
