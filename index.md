@@ -49,12 +49,12 @@ I implemented a convolutional neural network (CNN) architecture from scratch, us
 <img src="images/model9.png" width="25%" height="25%"/>
 <img src="images/cifar10.png" width="60%" height="60%"/>
 <p style="font-size:8px;">Source for CIFAR10 dataset examples: https://www.cs.toronto.edu/~kriz/cifar.html</p>
-[Implementing a Variational Auto Encoder(VAE)](/vae)
+[Implementing a Variational Auto Encoder(VAE)]
 <br/>
 The aim of this project is to implement a VAE, where the encoder is an LSTM network and the decoder is a convolutional network. Training and testing was made on MNIST dataset.
 <br/>
 <br/>
-
+[Spatio-Temporal Attention for Manipulation Failure Detection](/spatio_temporal)
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
