@@ -54,7 +54,7 @@ I implemented a convolutional neural network (CNN) architecture from scratch, us
 The aim of this project is to implement a VAE, where the encoder is an LSTM network and the decoder is a convolutional network. Training and testing was made on MNIST dataset.
 <br/>
 <br/>
-[Spatio-Temporal Attention for Manipulation Failure Detection (Bachelor's Thesis)](/pdf/sample_presentation.pdf)
+[Spatio-Temporal Attention for Manipulation Failure Detection (Bachelor's Thesis)](/pdf/poster_corrected.pdf)
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
