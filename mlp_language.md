@@ -159,7 +159,7 @@ class Network(object):
 
 ### 2. Pipeline
 In the a main function, main.py, I load the dataset, shuffle the training data and divide it into mini-batches. I train the model and evaluate the model performance on the validation set.
-For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1cGu0hQV7VCacA_hB8RMrfe5i83WBRHys?usp=sharing)
+<br>For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1cGu0hQV7VCacA_hB8RMrfe5i83WBRHys?usp=sharing)
 
 ### 3. Evaluation
 In eval.py, I load the network weights and evaluate the model on test data. After obtaining 16 dimensional embeddings, I created a 2-D plot of the embeddings using t-SNE.
