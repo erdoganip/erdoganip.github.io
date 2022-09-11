@@ -1,5 +1,5 @@
 
-## This can be your internal website page / project page
+## Image Classification Using Traditional CV Methods
 
 In this project, we worked as a group to classify a set of images using various methods. Each of us implemented different methods to achieve these goals. We, then, combined these methods to create full pipelines that predict image tags. For training and testing, we used The “Caltech20” dataset.
 
@@ -74,3 +74,12 @@ def get_histogram(image_features, centers):
 ```
 ### 4. Classification
 As a classifier, I decided to use Random Forest. Random Forest classifier consists of different Decision Trees. It classifies inputs by taking the average of the results of these decision trees or deciding on the dominant choice. Normally, with a quick research, you can see there are more examples which use SIFT with SVM than the ones which use with Random Forest. But there are some works [1][2] on comparison between the Random Forest and SVM, not only about accuracy but also about computation cost, which took my attention. I wanted to see the results with my experiments. That’s why I chose Random Forest.
+### 5. Evaluation
+I ran the pipeline for different number of clusters (K) which are 20,50,100. You can see the precision, recall, and F1-score results overall and per class.
+<br>
+K=20
+<br>
+K=50
+<br>
+K=100
+<br>
