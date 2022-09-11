@@ -31,6 +31,14 @@ This project is about implementing a logistic regression model by scratch and up
 
 ---
 
+### Computer Vision
+[Image Classification Using Traditional CV Methods](/computer_vision)
+In this project, the aim is to classify a set of images using various methods. The pipeline consists of 4 steps: Feature Extraction, Finding Dictionary Centers, Feature Quantization and Classification. (In my pipeline, I used SIFT (OpenCV implementation), K-Means Algorithm (my implementation), Bag of Visual Words (my teammate's implementation) and Random Forest (Sklearn implementation) respectively.) For training and testing, we used The “Caltech20” dataset.
+<br>
+For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1q-qOlJVMTtxnwDGHX8TCQUZ7zYPww_Zk?usp=sharing)
+
+---
+
 ### Deep Learning
 
 [MLP as a Neural Language Model](/mlp_language)
