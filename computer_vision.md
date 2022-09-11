@@ -4,6 +4,8 @@
 In this project, we worked as a group to classify a set of images using various methods. Each of us implemented different methods to achieve these goals. We, then, combined these methods to create full pipelines that predict image tags. For training and testing, we used The “Caltech20” dataset.
 
 The image prediction pipeline consists of 4 steps: Feature Extraction, Finding Dictionary Centers, Feature Quantization and Classification. (In my pipeline, I used SIFT (OpenCV implementation), K-Means Algorithm (my implementation), Bag of Visual Words (my teammate's implementation) and Random Forest (Sklearn implementation) respectively.)
+<br>
+For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1q-qOlJVMTtxnwDGHX8TCQUZ7zYPww_Zk?usp=sharing)
 
 ### 1. Feature Extraction
 I have used the OpenCV implementation of Scale-Invariant Feature Transform (SIFT) in my pipeline to extract the descriptors from the images. SIFT extracts different numbers of descriptors from each image, which are 128-dimensional feature vectors. I restricted the number of descriptors per image as 100, to lower the computational cost. It gives 1611904 descriptors from the Caltech20 training dataset, if I don’t restrict the number.
@@ -79,7 +81,25 @@ I ran the pipeline for different number of clusters (K) which are 20,50,100. You
 <br>
 K=20
 <br>
+<div style="text-align: center;">
+<img src="images/K20.png" width="60%" height="60%"/>
+<img src="images/K20.jpeg" width="60%" height="60%"/>
+</div>
+<br>
 K=50
+<br>
+<div style="text-align: center;">
+<img src="images/K50.png" width="60%" height="60%"/>
+<img src="images/K50.jpeg" width="60%" height="60%"/>
+</div>
 <br>
 K=100
 <br>
+<div style="text-align: center;">
+<img src="images/K100.png" width="60%" height="60%"/>
+<img src="images/K100.jpeg" width="60%" height="60%"/>
+</div>
+<br>
+### 6. References
+[1]	A. Bosch, A. Zisserman and X. Munoz, "Image Classification using Random Forests and Ferns," 2007 IEEE 11th International Conference on Computer Vision, Rio de Janeiro, 2007, pp. 1-8, doi: 10.1109/ICCV.2007.4409066.
+[2]	M. Sheykhmousa, M. Mahdianpari, H. Ghanbari, F. Mohammadimanesh, P. Ghamisi and S. Homayouni, "Support Vector Machine Versus Random Forest for Remote Sensing Image Classification: A Meta-Analysis and Systematic Review," in IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 13, pp. 6308-6325, 2020, doi: 10.1109/JSTARS.2020.3026724.
