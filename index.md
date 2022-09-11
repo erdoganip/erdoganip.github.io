@@ -23,6 +23,7 @@ In this project, I implemented Expectation Maximization algorithm as a solution 
 
 ---
 [Logistic Regression and Gradient Descent from Scratch](/log_res)
+<br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1tppXFSwrH6FGpr4SyDZq87c1143Hchi5?usp=sharing)
 <br/>
 This project is about implementing a logistic regression model by scratch and updating its gradients using stochastic gradient descent method.
@@ -33,15 +34,18 @@ This project is about implementing a logistic regression model by scratch and up
 
 ### Computer Vision
 [Image Classification Using Traditional CV Methods](/computer_vision)
+<br/>
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1q-qOlJVMTtxnwDGHX8TCQUZ7zYPww_Zk?usp=sharing)
+<br/>
 In this project, the aim is to classify a set of images using various methods. The pipeline consists of 4 steps: Feature Extraction, Finding Dictionary Centers, Feature Quantization and Classification. (In my pipeline, I used SIFT (OpenCV implementation), K-Means Algorithm (my implementation), Bag of Visual Words (my teammate's implementation) and Random Forest (Sklearn implementation) respectively.) For training and testing, we used The “Caltech20” dataset.
 <br>
-For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1q-qOlJVMTtxnwDGHX8TCQUZ7zYPww_Zk?usp=sharing)
 
 ---
 
 ### Deep Learning
 
 [MLP as a Neural Language Model](/mlp_language)
+<br/>
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1cGu0hQV7VCacA_hB8RMrfe5i83WBRHys?usp=sharing)
 <br/>
 In this project, I implemented a neural language model using a multi-layer perceptron. This network receives 3 consecutive words as the input and predicts the next word.
