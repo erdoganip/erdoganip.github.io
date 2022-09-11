@@ -3,7 +3,7 @@
 
 In this project, we worked as a group to classify a set of images using various methods. Each of us implemented different methods to achieve these goals. We, then, combined these methods to create full pipelines that predict image tags. For training and testing, we used The “Caltech20” dataset.
 
-The image prediction pipeline consists of 4 steps: Feature Extraction, Finding Dictionary Centers, Feature Quantization and Classification. (In my pipeline, I used SIFT (OpenCV implementation), K-Means Algorithm (my implementation), Bag of Visual Words (my teammate's implementation) and Random Forest (Sklearn implementation) respectively.)
+The pipeline consists of 4 steps: Feature Extraction, Finding Dictionary Centers, Feature Quantization and Classification. (In my pipeline, I used SIFT (OpenCV implementation), K-Means Algorithm (my implementation), Bag of Visual Words (my teammate's implementation) and Random Forest (Sklearn implementation) respectively.)
 <br>
 For the full pipeline: [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/drive/1q-qOlJVMTtxnwDGHX8TCQUZ7zYPww_Zk?usp=sharing)
 
