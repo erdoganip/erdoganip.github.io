@@ -72,3 +72,9 @@ The aim of this project is to implement a VAE, where the encoder is an LSTM netw
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
+<footer>
+  {% if site.github.is_project_page %}
+  <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+  {% endif %}
+  <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+</footer>
